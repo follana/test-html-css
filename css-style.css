@@ -38,3 +38,25 @@
   /****bloc vide******/
   /*******************/
   /*******************/
+
+  *
+  {
+    box-sizing: border-box;
+  }
+
+  body
+  {
+    padding: 0;
+    background-color:var(--main-bg-color);
+    max-width:100vw;
+    margin: 0 auto;
+    color: var(--primary-texte-color),
+    font-family: var(--font roboto);
+  }
+  main
+  {
+    min-height: calc(100vh - 190px);
+    padding-top: 5vh;
+    font-size: 1vn;
+    
+  }
