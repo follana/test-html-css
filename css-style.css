@@ -11,3 +11,30 @@
 /**Anim & fontface**/
 /*******************/
 /*******************/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;900&display=swap');
+
+@keyframes moving-cube{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(90deg);
+    }
+}
+/*******************/
+/*******************/
+/*****bloc vide*****/
+/*******************/
+/*******************/
+
+.lines{
+    width: 100vh;
+    height: 1px;
+    background-color: var(--second-bg-color);
+  }
+  
+  /*******************/
+  /*******************/
+  /****bloc vide******/
+  /*******************/
+  /*******************/
