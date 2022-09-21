@@ -105,3 +105,32 @@ ul a
     position: relative;
     
   }
+
+footer
+{
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  justify-content: flex-end;
+  width: 67%;
+}
+footer .flex-list {
+  margin: 0;
+  gap: 10px;
+  justify-content: flex-start;
+}
+.social-network
+{
+    width: 32px;
+    height: 32px;
+    align-self: start;
+  }
+  .linked-in{
+    background-color: var(--second-bg-color);
+    mask: url(../img/linkedin.svg) no-repeat center/contain;
+    mask-mode: luminance;
+  }
+  .github{
+    background-color: var(--second-bg-color);
+    mask: url(../img/github.svg) no-repeat  center/contain;
+  }
